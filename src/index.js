@@ -1,20 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom';
-import reportWebVitals from './reportWebVitals';
-import Store from './Context/ProductsContext';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import reportWebVitals from "./reportWebVitals";
+import Store from "./Context/ProductsContext";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
- 
-    <Store>
+  <Store>
     <BrowserRouter>
-    <App />
+      <h1 className="bg-red-500">Hello Dinesh </h1>
+      <App />
     </BrowserRouter>
-    </Store>
-  
+  </Store>
 );
 
 // If you want to start measuring performance in your app, pass a function
