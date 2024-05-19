@@ -10,7 +10,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Store>
     <BrowserRouter>
-      <h1 className="bg-red-500">Hello Dinesh </h1>
       <App />
     </BrowserRouter>
   </Store>
